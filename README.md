@@ -16,4 +16,4 @@
 
 ##OUTPUT 
 
-[file:///C:/Users/Lokesh/OneDrive/Desktop/intenship/index.html](url)
+![Image](https://github.com/user-attachments/assets/ba138f52-3672-43a5-8b35-2e87a769e566)
