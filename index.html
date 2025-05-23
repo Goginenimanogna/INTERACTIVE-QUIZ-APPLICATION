@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Enrollment Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Student Enrollment Form</h2>
+    <form id="enrollForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="course">Select Course</label>
+      <select id="course" required>
+        <option value="">--Select--</option>
+        <option value="B.Sc Computer Science">B.Sc Computer Science</option>
+        <option value="BCA">BCA</option>
+        <option value="MCA">MCA</option>
+      </select>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" required>
+
+      <label>Gender</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender" value="Male" required> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+      </div>
+
+      <button type="submit">Enroll Student</button>
+    </form>
+  </div>
+
+  <div class="list-container">
+    <h2>Enrolled Students</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Course</th>
+          <th>DOB</th>
+          <th>Gender</th>
+        </tr>
+      </thead>
+      <tbody id="studentTableBody">
+        <!-- New students will be added here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
